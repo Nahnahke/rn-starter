@@ -1,6 +1,5 @@
-import { setStatusBarNetworkActivityIndicatorVisible } from "expo-status-bar";
 import React, { useReducer } from "react";
-import { View, Text, StyleSheet, ActivityIndicatorComponent } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import ColorCounter from "../components/ColorCounter";
 
 const COLOR_INCREMENT = 15;
